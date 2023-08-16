@@ -7,13 +7,14 @@
 
 #include <cmath> // For: fabs
 
-#include <cblas.h>
 
 #ifndef MAX_SPEED
 #error "Must set max speed with -DMAX_SPEED=... or similar"
 #endif
 
 extern "C" {
+    #include <cblas.h>
+
 /* Your function must have the following signature: */
 extern const char* dgemm_desc;
 
