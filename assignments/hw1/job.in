@@ -1,5 +1,4 @@
 #!/bin/bash -l
-#SBATCH -C cpu
 #SBATCH -c 1
 #SBATCH -p debug
 #SBATCH -N 1
